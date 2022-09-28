@@ -1,3 +1,4 @@
+
 html{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +23,33 @@ label{
 textarea{
     width: 100px;
 }
-ul{
-        
+ul{}
+
+button {
+
+border:none;
+border-radius: 15px;
+padding: 15px 25px;
+font-size: 30px;
+outline: none;
+background-color:  #1E90FF;
+color:  #FFFFFF ;
+box-shadow: 0 15px  #000000  ;
+cursor:pointer;
+
 }
+
+button:hover{
+
+background-color:  #00BFFF ;
+}
+
+
+button:active{
+    background-color:  #1E90FF ;
+    box-shadow: 0 10px   #000000 ;
+    ;
+    transform: translateY(4px)
+}
+
+
